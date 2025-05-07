@@ -11,4 +11,12 @@ This repository contains the code and scripts needed to reproduce and extend the
    ```bash
    pip install -r requirements.txt
 
-##
+## Train Models
+```python unified_main.py```
+
+## Test Models
+First, run unified_run.py.
+The generated discrete code sequences are saved as files.
+```python unified_run.py```
+
+### For decoding chest X-rays
