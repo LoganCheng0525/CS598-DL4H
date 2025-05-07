@@ -1,4 +1,9 @@
 # Reproducing and Extending ViewXGen
+
+This repository contains the code and scripts needed to reproduce and extend the ViewXGen model from:
+
+Lee, H., Lee, D. Y., Kim, W., Kim, J.-H., Kim, T., Kim, J., Sunwoo, L., & Choi, E. (2023). Vision-Language Generative Model for View-Specific Chest X-ray Generation. arXiv:2302.12172.
+
 ```bash
 # Download JPEG images (≈500 GB)
 wget -r -N -c -np \
