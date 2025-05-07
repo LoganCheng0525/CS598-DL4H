@@ -30,9 +30,9 @@ This repository contains the code and scripts needed to reproduce and extend the
 | CUDA Toolkit                        | 11.0                         |
 
 ## Dataset
-Download MIMIC-CXR-JPG images & reports.
-You must be a credential user defined in PhysioNet to access the data.
-Download chest X-rays from MIMIC-CXR-JPG.
+Download MIMIC-CXR-JPG images & reports.  
+You must be a credential user defined in PhysioNet to access the data.  
+Download chest X-rays from MIMIC-CXR-JPG.  
 Download reports from MIMIC-CXR Database.
 
 ## Train Models
