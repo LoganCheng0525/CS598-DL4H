@@ -33,7 +33,7 @@ This repository contains the code and scripts needed to reproduce and extend the
 Download MIMIC-CXR-JPG images & reports.  
 You must be a credential user defined in PhysioNet to access the data.  
 Download chest X-rays from MIMIC-CXR-JPG.  
-Download reports from MIMIC-CXR Database.
+Download reports from MIMIC-CXR Database.  
 
 ## Train Models
 ```python unified_main.py```
