@@ -1,4 +1,4 @@
-# CS598-DL4H
+# Reproducing and Extending ViewXGen
 ```bash
 # Download JPEG images (≈500 GB)
 wget -r -N -c -np \
