@@ -11,6 +11,24 @@ This repository contains the code and scripts needed to reproduce and extend the
    ```bash
    pip install -r requirements.txt
 
+3. **Dependencies/packages needed:**:
+
+| Library / Package                   | Version                      |
+|-------------------------------------|------------------------------|
+| torch, torchvision                  | 1.7.1+cu110, 0.8.2+cu110     |
+| pytorch-lightning                   | 1.4.0                        |
+| transformers                        | 4.9.1                        |
+| tokenizers                          | 0.10.3                       |
+| taming-transformers-rom1504         | 0.0.6                        |
+| omegaconf                           | 2.1.0                        |
+| numpy, pandas                       | 1.23.4, 1.5.1                |
+| scikit-image, scipy                 | 0.19.3, 1.9.3                |
+| matplotlib                          | 3.6.2                        |
+| tqdm                                | 4.64.1                       |
+| torchxrayvision                     | 0.0.39                       |
+| wandb                               | 0.13.5                       |
+| CUDA Toolkit                        | 11.0                         |
+
 ## Dataset
 Download MIMIC-CXR-JPG images & reports.
 You must be a credential user defined in PhysioNet to access the data.
