@@ -5,14 +5,14 @@ This repository contains the code and scripts needed to reproduce and extend the
 ## Installation
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/viewxgen-repro.git
-   cd viewxgen-repro
+   git clone https://github.com/LoganCheng0525/CS598-DL4H.git
 
-2. **Install Required Python Packages**: Navigate to the project directory and install dependencies:
+2. **Set up environment:**:
    ```bash
    pip install -r requirements.txt
 
-3. **Create a `.env` file**:
+## Data Preparation
+1. **Download MIMIC-CXR JPEGs:**:
 In the project root, create a file named `.env` with the following contents (replace the placeholders with your own credentials):
 ```dotenv
 # MySQL
