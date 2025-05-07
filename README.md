@@ -1,8 +1,8 @@
-# Reproducing and Extending ViewXGen
+# Reproducing and Extending UniXGen
 
-This repository contains the code and scripts needed to reproduce and extend the ViewXGen model from:
+This repository contains the code and scripts needed to reproduce and extend the UniXGen model from:
 
-Lee, H., Lee, D. Y., Kim, W., Kim, J.-H., Kim, T., Kim, J., Sunwoo, L., & Choi, E. (2023). Vision-Language Generative Model for View-Specific Chest X-ray Generation. arXiv:2302.12172.
+```Lee, H., Lee, D. Y., Kim, W., Kim, J.-H., Kim, T., Kim, J., Sunwoo, L., & Choi, E. (2023). Vision-Language Generative Model for View-Specific Chest X-ray Generation. arXiv:2302.12172.```
 
 ```bash
 # Download JPEG images (≈500 GB)
@@ -16,15 +16,11 @@ wget -r -N -c -np --reject dcm \
   https://physionet.org/files/mimic-cxr/2.1.0/
 ```
 
-## Demo
-https://mediaspace.illinois.edu/media/t/1_4xm4f30e
-
 ## Installation
-Follow these steps to set up and run the ScholarScope Dashboard on your local machine. The instructions assume that MySQL, MongoDB, and Neo4j are already installed and populated with the Academic World dataset.
-
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/CS411DSO-SP25/Anthony_Logan.git
+   git clone https://github.com/your-username/viewxgen-repro.git
+   cd viewxgen-repro
 
 2. **Install Required Python Packages**: Navigate to the project directory and install dependencies:
    ```bash
